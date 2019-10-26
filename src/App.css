@@ -23,6 +23,30 @@
   color: #61dafb;
 }
 
+.active-link {
+  color:pink!important;
+}
+
+.page {
+  position:fixed;
+  width:100%;
+  height:100vh;
+}
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
